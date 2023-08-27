@@ -14,6 +14,14 @@ public class MovieModel {
 	private String imdbID;
 	
 	
+	public MovieModel(String title, String year, String imdbID) {
+		this.Title = title;
+		this.Year = year;
+		this.imdbID = imdbID;
+	}
+	
+	public MovieModel() {
+	}
 	public String getTitle() {
 		return Title;
 	}
